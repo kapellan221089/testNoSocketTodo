@@ -19,7 +19,8 @@
           </button>
         </v-col>
       <v-row class="modalTextField align-center">
-        <v-text-field
+        <v-col cols="12">
+          <v-text-field
             placeholder="Введите описание"
             label="Описание"
             outlined
@@ -36,6 +37,7 @@
             <p class="btnCreate align-center">Создать</p>
         </v-btn>
         </div>
+        </v-col>
       </v-row>
       </v-row>
       
@@ -145,7 +147,7 @@ export default {
 .modalTextField {
   max-width: 320px;
   margin-left: 50px;
-  margin-bottom: 64px;
+  padding-bottom: 64px
 }
 .form {
   background-color: #E8EAF6;
