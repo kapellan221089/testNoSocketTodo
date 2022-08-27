@@ -64,12 +64,12 @@
           Описание
         </v-card-subtitle>
       </v-col>
-      <v-col cols="1" >
+      <v-col cols="3" >
         <v-card-subtitle class="textField bord" style="margin-left:170px">
           Статус
         </v-card-subtitle>
       </v-col>
-      <v-col cols="5" >
+      <v-col cols="3" >
         <v-card-subtitle class="textField bord" style="margin-left:250px">
           Дата
         </v-card-subtitle>
