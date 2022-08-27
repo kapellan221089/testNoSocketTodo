@@ -23,17 +23,10 @@
                 {{status? 'Выполнено': 'В работе'}}
               </v-card-subtitle>
             </v-col>
-            <v-col cols="1">
+            <v-col cols="2">
               <v-card-subtitle class="textDate">
                 {{date}}
               </v-card-subtitle>
-            </v-col>
-            <v-col cols="1" class="d-flex justify-center align-center">
-              <button class="delTodoBtn d-flex justify-center align-center">
-                <v-icon class="closeModalIcon" @click="$emit('delTodo')">
-                  mdi-close
-                </v-icon>
-              </button>
             </v-col>
           </v-row>
         </div>
