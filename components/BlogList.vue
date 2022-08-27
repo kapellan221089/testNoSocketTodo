@@ -163,6 +163,7 @@ export default {
   }
   .top {
     padding: 12px;
+    padding-left:150px;
     padding-bottom: 24px;
     max-width: 1300px;
     max-height: 70px;
@@ -202,5 +203,7 @@ export default {
   }
   .tableTop {
     margin-bottom: 10px;
+    max-height: 65px;
+    padding-left: 50px;
   }
 </style>
