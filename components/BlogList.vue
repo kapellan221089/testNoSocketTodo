@@ -201,7 +201,6 @@ export default {
     border-left: 1px solid #C4C4C4;
   }
   .tableTop {
-    height: 58px;
     margin-bottom: 10px;
   }
 </style>
