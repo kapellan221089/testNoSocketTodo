@@ -172,7 +172,7 @@ export default {
     margin-right: 150px;
   }
   .name {
-    max-width: 1520px;
+    max-width: 1440px;
     margin-left: 150px;
     margin-right: 150px;
     padding-left: 160px;
