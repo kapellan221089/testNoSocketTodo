@@ -18,7 +18,8 @@
           </v-icon>
           </button>
         </v-col>
-      <v-row class="modalTextField align-center">
+      </v-row>
+            <v-row class="modalTextField align-center">
         <v-col cols="12">
           <v-text-field
             placeholder="Введите описание"
@@ -39,8 +40,6 @@
         </div>
         </v-col>
       </v-row>
-      </v-row>
-      
       </div>
     </div>
   </v-card>
