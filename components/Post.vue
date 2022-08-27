@@ -18,12 +18,12 @@
                 {{text}}
               </v-card-subtitle>
             </v-col>
-            <v-col cols="2">
+            <v-col cols="3">
               <v-card-subtitle class="text" v-bind:class="{ compl: status, work: !status }">
                 {{status? 'Выполнено': 'В работе'}}
               </v-card-subtitle>
             </v-col>
-            <v-col cols="2">
+            <v-col cols="1">
               <v-card-subtitle class="textDate">
                 {{date}}
               </v-card-subtitle>
@@ -100,6 +100,7 @@ export default {
     padding: 6px;
     font-size: 14px;
     line-height: 132%;
+    text-align: end;
   }
   .do {
     border-bottom: 1px solid #EEEBE9;

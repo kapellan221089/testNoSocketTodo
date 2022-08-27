@@ -163,18 +163,19 @@ export default {
   }
   .top {
     padding: 12px;
-    padding-left:150px;
+    padding-left:160px;
     padding-bottom: 24px;
-    max-width: 1300px;
+    max-width: 1500px;
     max-height: 70px;
     margin-bottom: 10px;
     margin-left: 150px;
     margin-right: 150px;
   }
   .name {
-    max-width: 1300px;
+    max-width: 1520px;
     margin-left: 150px;
     margin-right: 150px;
+    padding-left: 160px;
   }
   .textField {
     font-family: 'Vela Sans';
