@@ -107,6 +107,9 @@ export default {
     padding: 0px;
     min-width: 1300px;
   }
+  .container {
+    padding: 0px;
+  }
   .do :hover {
     background: #ecf0f8;
   }
