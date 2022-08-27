@@ -143,15 +143,17 @@ export default {
   margin-right: 40px;
 }
 .modalTextField {
-  max-width: 320px;
-  margin-left: 50px;
+  min-width: 320px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 64px
 }
 .form {
   background-color: #E8EAF6;
 }
 .addBtn {
-  margin-left: 25%
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .btnCreate {
   font-family: 'Vela Sans';
