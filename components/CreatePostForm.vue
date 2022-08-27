@@ -1,8 +1,8 @@
 <template>
   <v-card flat >
     <div class="modal-mask ">
-      <div class="modal-wrapper d-flex justify-center" >
-      <v-row>
+      <div class="modal-wrapper d-flex" >
+      <div>
         <v-col cols="9">
         <v-card-subtitle class="textDate">
           <h3 class="createWin">Создать новую задачу</h3>
@@ -18,8 +18,8 @@
           </v-icon>
           </button>
         </v-col>
-      </v-row>
-            <v-row class="modalTextField align-center">
+      </div>
+      <div class="modalTextField align-center">
         <v-col cols="12">
           <v-text-field
             placeholder="Введите описание"
@@ -39,7 +39,7 @@
         </v-btn>
         </div>
         </v-col>
-      </v-row>
+      </div>
       </div>
     </div>
   </v-card>
