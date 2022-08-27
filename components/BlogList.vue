@@ -130,7 +130,8 @@ export default {
   },
   mixins: [Vue2Filters.mixin],
   mounted () {
-    //this.$store.dispatch('GET_TODO');
+    let initArr = JSON.parse(localStorage.getItem('items'))
+    this.$store.commit('init', initArr);
   },
   data () {
     return {

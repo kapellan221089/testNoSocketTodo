@@ -107,7 +107,7 @@ export default {
     padding: 0px;
     min-width: 1300px;
   }
-  .container {
+  div.container {
     padding: 0px;
   }
   .do :hover {
