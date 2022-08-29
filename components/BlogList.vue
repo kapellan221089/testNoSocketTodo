@@ -91,7 +91,7 @@
             @close='close'
             v-show="createVisible"
           />
-      <button class="addBtn" @click="showCreate">
+      <button class="addBtn" style="margin-left: 0px" @click="showCreate">
         <img
           src="../static/Rectangle 19.png"
           alt="triangle with all three sides equal"
