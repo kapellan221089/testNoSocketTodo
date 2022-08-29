@@ -6,19 +6,19 @@
           :elevation="hover ? 12 : 2"
         >
           <v-row>
-            <v-col cols="1">
-              <div class="check d-flex justify-center" v-bind:class="{checkComp : status, checkNotComp: !status}" @click="$emit('setCompl')">
-                <v-icon class="checkBox" v-if="status" >
-                  mdi-check
-                </v-icon>
+            <v-col cols="1" class="checkBlock align-center">
+              <div class="check d-flex justify-center align-center" v-bind:class="{checkComp : status, checkNotComp: !status}" @click="$emit('setCompl')">
+                  <img class="checkBox" v-if="status"
+                  src="../static/Vector 13.png"
+                  alt="triangle with all three sides equal"/>
               </div>
             </v-col>
-            <v-col cols="7">
+            <v-col cols="7" class="descrField">
               <v-card-subtitle class="text">
                 {{text}}
               </v-card-subtitle>
             </v-col>
-            <v-col cols="3">
+            <v-col cols="3" class="statusField">
               <v-card-subtitle class="text" v-bind:class="{ compl: status, work: !status }">
                 {{status? 'Выполнено': 'В работе'}}
               </v-card-subtitle>
@@ -112,18 +112,20 @@ export default {
     padding: 0px;
   }
   .do :hover {
-    background: #ecf0f8;
+    background: #F6F9FF;
   }
   .compl {
     color: #134EC1;
+    padding-left: 185px;
   }
   .work {
     color: #F89B11;
+    padding-left: 185px;
   }
   .check {
     box-sizing: border-box;
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     left: 0px;
     top: 0px;
     background: #FFFFFF;
@@ -137,7 +139,8 @@ export default {
     border : 1px solid #F89B11
   }
   .checkBox {
-    border-radius: 100%;
+    width: 8.5px;
+    height: 9.5px;
     color:#134EC1
   }
   .delTodoBtn{
@@ -150,5 +153,9 @@ export default {
     border-radius: 50%;
     border: 1px solid #eb0909;
     box-shadow: 0px 4px 4px rgba(19, 78, 193, 0.15);
+  }
+  .checkBlock {
+    max-width: 82.5px;
+    padding-top: 17px;
   }
 </style>
